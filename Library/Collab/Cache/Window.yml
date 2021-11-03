@@ -14,13 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/EnemyController.cs
-    - Assets/EnemyController.cs.meta
-    - Assets/Scenes/TestBase.unity
+    - Assets/Animations.meta
+    - Assets/Animations/MovingPlatform.controller
+    - Assets/Animations/MovingPlatform.controller.meta
+    - Assets/Animations/Sphere_cell_185.controller
+    - Assets/Animations/Sphere_cell_185.controller.meta
+    - Assets/Animations/movingPlatform.anim
+    - Assets/Animations/movingPlatform.anim.meta
+    - Assets/Animations/movingRock.anim
+    - Assets/Animations/movingRock.anim.meta
+    - Assets/Scripts/EnemyController.cs
+    - Assets/Scripts/EnemyController.cs.meta
+    - Assets/Scripts/PlayerPlatform.cs
+    - Assets/Scripts/PlayerPlatform.cs.meta
     - 
-    m_Values: 00000000
+    m_Values: 0000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 0
+  TabIndex: 1
