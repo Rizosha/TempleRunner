@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 hookshotPosition;
     private enum State
     {
+        // 2 states that the player can be in. Normal or flying through air 
       Normal,  
       HookshotFlyingPlayer
     }
