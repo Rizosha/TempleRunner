@@ -14,13 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Hookshot.meta
-    - Assets/Hookshot/Scripts.meta
-    - Assets/Hookshot/Scripts/PlayerCharacterController.cs
-    - Assets/Hookshot/Scripts/PlayerCharacterController.cs.meta
     - Assets/Scripts/PlayerMovement.cs
+    - Assets/Scripts/PlayerPlatform.cs
     - 
-    m_Values: 000000000000
+    m_Values: 000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

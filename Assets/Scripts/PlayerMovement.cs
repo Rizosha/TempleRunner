@@ -97,15 +97,15 @@ public class PlayerMovement : MonoBehaviour
         
         controller.Move(charVelocity * speed * Time.deltaTime);
         controller.Move(charVelocity * Time.deltaTime);
-       if (momentum.magnitude >= 0f)
-       {
-           float momentumDrag = 3f;
-           momentum -= momentum * momentumDrag * Time.deltaTime;
-           if (momentum.magnitude < .0f)
-           {
-               momentum = Vector3.zero;
-           }
-       }
+        if (momentum.magnitude >= 0f)
+        {
+            float momentumDrag = 3f;
+            momentum -= momentum * momentumDrag * Time.deltaTime;
+            if (momentum.magnitude < .0f)
+            {
+                momentum = Vector3.zero;
+            }
+        }
     }
 
     
