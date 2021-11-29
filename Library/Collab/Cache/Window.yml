@@ -16,8 +16,11 @@ MonoBehaviour:
     m_Keys:
     - Assets/Scripts/PlayerMovement.cs
     - Assets/Scripts/PlayerPlatform.cs
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/ProjectVersion.txt
     - 
-    m_Values: 000000
+    m_Values: 000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
