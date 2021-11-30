@@ -41,10 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerPlatform.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerPlatform.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -267,11 +267,11 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Newtonsoft.Json">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -618,11 +618,17 @@
      <Reference Include="System.Xml.Serialization">
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -630,17 +636,32 @@
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <Reference Include="Unity.Sysroot.Linux_x86_64">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="VSSettingsProvider">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.AddOns.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
@@ -657,74 +678,53 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="VSSettingsProvider">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.SysrootPackage.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Sysroot.Linux_x86_64">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Searcher.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
      <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.SysrootPackage.Editor">
+     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

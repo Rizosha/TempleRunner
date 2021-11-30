@@ -14,15 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Scenes/InsidePyramid.unity
+    - Assets/Scenes/InsidePyramid.unity.meta
+    - Assets/Scenes/OutsidePyramid.unity
+    - Assets/Scenes/OutsidePyramid.unity.meta
+    - Assets/Scenes/TestBase.unity
     - Assets/Scripts/PlayerMovement.cs
     - Assets/Scripts/PlayerPlatform.cs
-    - Packages/manifest.json
-    - Packages/packages-lock.json
-    - ProjectSettings/ProjectVersion.txt
+    - Assets/UniversalRenderPipelineAsset_Renderer.asset
     - 
-    m_Values: 000000000000
+    m_Values: 010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 0
+  TabIndex: 1

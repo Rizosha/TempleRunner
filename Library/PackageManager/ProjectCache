@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637738139832654438
+      ticks: 637738850125804181
     m_Hash: 726938113
   m_LockFileStatus:
     m_FilePath: D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637738139832764462
+      ticks: 637738850125874189
     m_Hash: 3722031484
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3313,12 +3313,40 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
+        - 1.2.5
         compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3335,7 +3363,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3876,9 +3904,37 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
         compatible:
+        - 4.0.0-preview
+        - 4.0.0
+        - 4.0.7-preview
+        - 4.0.7
+        - 4.0.8-preview
+        - 4.0.9
+        - 4.1.0-preview
+        - 4.1.0
+        - 4.2.0
+        - 4.3.0
+        - 4.3.1
         - 4.3.2
+        - 4.6.0-preview
+        - 4.7.0-preview
+        - 4.9.1
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -3897,7 +3953,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637509898070000000
       documentationUrl: 
       hasRepository: 1
       repository:
