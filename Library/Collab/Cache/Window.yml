@@ -14,17 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/InsidePyramid.unity
-    - Assets/Scenes/InsidePyramid.unity.meta
-    - Assets/Scenes/OutsidePyramid.unity
-    - Assets/Scenes/OutsidePyramid.unity.meta
-    - Assets/Scenes/TestBase.unity
-    - Assets/Scripts/PlayerMovement.cs
-    - Assets/Scripts/PlayerPlatform.cs
-    - Assets/UniversalRenderPipelineAsset_Renderer.asset
     - 
-    m_Values: 010101010101010101
-  RevisionSummary: 
+    m_Values: 01
+  RevisionSummary: 'Diagonal movement sorted
+
+    Added health, stamina and idol
+    bar
+
+    Player script'
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

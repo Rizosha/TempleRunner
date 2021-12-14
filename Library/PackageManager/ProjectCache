@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637738850125874189
+      ticks: 637750377384891581
     m_Hash: 3722031484
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -72,8 +72,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -88,8 +90,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -624,9 +628,11 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         verified: 10.6.0
       dependencies:
       - name: com.unity.mathematics
@@ -3490,9 +3496,11 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         verified: 10.6.0
       dependencies:
       - name: com.unity.ugui
@@ -3641,9 +3649,11 @@ m_PackageAssets:
         - 10.5.1
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         compatible:
         - 10.6.0
         - 10.7.0
+        - 10.8.0
         verified: 10.6.0
       dependencies:
       - name: com.unity.render-pipelines.core
@@ -3710,6 +3720,7 @@ m_PackageAssets:
         - 1.0.2
         - 1.0.3
         - 2.0.0
+        - 2.0.1
         compatible:
         - 0.1.0-preview.4
         - 0.1.0-preview.8
@@ -3718,6 +3729,7 @@ m_PackageAssets:
         - 1.0.2
         - 1.0.3
         - 2.0.0
+        - 2.0.1
         verified: 1.0.3
       dependencies: []
       resolvedDependencies: []
@@ -3848,6 +3860,7 @@ m_PackageAssets:
         - 1.1.0-pre.9
         - 1.1.0-pre.10
         - 1.1.0-pre.11
+        - 1.1.0-pre.41
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3855,6 +3868,7 @@ m_PackageAssets:
         - 1.1.0-pre.9
         - 1.1.0-pre.10
         - 1.1.0-pre.11
+        - 1.1.0-pre.41
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest

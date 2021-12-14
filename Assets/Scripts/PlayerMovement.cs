@@ -93,14 +93,14 @@ public class PlayerMovement : MonoBehaviour
         characterVelocityY += gravity * Time.deltaTime;
        
         charVelocity += momentum;
+      //  Vector3.ClampMagnitude(charVelocity,1f);
         
-        
-        controller.Move(charVelocity * speed * Time.deltaTime);
-        controller.Move(charVelocity * Time.deltaTime);
+        controller.Move(Vector3.ClampMagnitude(charVelocity, 1) * speed * Time.fixedDeltaTime);
+        controller.Move(Vector3.ClampMagnitude(charVelocity, 1) * Time.fixedDeltaTime);
         if (momentum.magnitude >= 0f)
         {
             float momentumDrag = 3f;
-            momentum -= momentum * momentumDrag * Time.deltaTime;
+            momentum -= momentum * momentumDrag * Time.fixedDeltaTime;
             if (momentum.magnitude < .0f)
             {
                 momentum = Vector3.zero;
@@ -151,8 +151,8 @@ public class PlayerMovement : MonoBehaviour
     {
         
         hookshotTransform.LookAt(hookshotPosition);
-        float hookshoThrowSpeed = 180f;
-        hookshotSize += hookshoThrowSpeed * Time.deltaTime;
+        float hookshotThrowSpeed = 180f;
+        hookshotSize += hookshotThrowSpeed * Time.fixedDeltaTime;
         hookshotTransform.localScale = new Vector3(1, 1, hookshotSize);
         
         if (hookshotSize >= Vector3.Distance(transform.position, hookshotPosition))
@@ -172,11 +172,11 @@ public class PlayerMovement : MonoBehaviour
         float hookshotSpeed = Mathf.Clamp(Vector3.Distance(transform.position,hookshotPosition), hsSpeedMin, hsSpeedMax);
         float hookshotSpeedMultiplier = 1.5f;
         
-        controller.Move(hookshotDir * hookshotSpeed * hookshotSpeedMultiplier * Time.deltaTime);
+        controller.Move(hookshotDir * hookshotSpeed * hookshotSpeedMultiplier * Time.fixedDeltaTime);
         
-        float jumpSpeed = .4f;
-        float momentumExtra = .3f;
-        float reachedHookshotPositionDistance = 2f;
+        float jumpSpeed = 40f;
+        float momentumExtra = 30f;
+        float reachedHookshotPositionDistance = 5f;
         
         if (Vector3.Distance(transform.position, hookshotPosition) < reachedHookshotPositionDistance)
         {

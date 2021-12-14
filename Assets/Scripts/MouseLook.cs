@@ -19,8 +19,8 @@ public class MouseLook : MonoBehaviour
     {
         // takes input from unity controller a multiplies it by defined sensitivity and delta time
         
-        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
-        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.fixedDeltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.fixedDeltaTime;
 
         // sets rotation to only be on the y axis and clamps view  
         
