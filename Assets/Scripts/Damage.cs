@@ -4,6 +4,6 @@
 
 //public class Damage : MonoBehaviour
 //{
-    //add damage script
+   
 //}
 //}

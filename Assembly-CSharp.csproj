@@ -41,13 +41,81 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Previous_Scene.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\DeleteDoor.cs" />
      <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\oldscene.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\Scripts\RotatingIdol.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\load.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Scripts\PlayerPlatform.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Scripts\Damage.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Scripts\Crosshair.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Scripts\LoadPyramid.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\OpenDoor.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
      <Reference Include="UnityEngine">
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -271,10 +339,10 @@
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -622,112 +690,112 @@
      <HintPath>D:/Unity/2020.3.21f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Sysroot.Linux_x86_64">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Searcher.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
      </Reference>
      <Reference Include="VSSettingsProvider">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder.AddOns.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.SysrootPackage.Editor">
-     <HintPath>D:/Group 2 - Temple Platformer/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+     <HintPath>D:/Unity/Unity Projects/Group 2 - Temple Platformer/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

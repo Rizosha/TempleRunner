@@ -5,19 +5,22 @@ using UnityEngine;
 
 public class PlayerPlatform : MonoBehaviour
 {
-    public GameObject Player;
+    public GameObject player;
 
+    /// <summary>
+    /// used to move a player on a platform  
+    /// </summary>
+   
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Player)
+        if (other.gameObject == player)
         {
-            Player.transform.parent = transform;
-            
+            player.transform.parent = transform;
         } 
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Player.transform.parent = null;
+        player.transform.parent = null;
     }
 }
